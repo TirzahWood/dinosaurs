@@ -1,6 +1,25 @@
-@charset "UTF-8";
-/* CSS Document */
+
 html {
 	background color: #DADADA;
 }
 
+.dino-list li {
+	float:left;
+	width: 25%;
+}
+
+.dino-list {
+	margin: 0;
+	padding: 0;
+	list-style-type: none;
+}
+
+.dino-list figure {
+	margin: 0;
+	padding: 0;
+}
+
+.dino-list img {
+	dsplay:block;
+	width:100%;
+}
