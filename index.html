@@ -6,3 +6,13 @@ layout: default
 
 <p> dinosaurs are suoer rackin'!</p>
 
+<h2>Herbivores</h2>
+
+<ul>
+ 	{% for dino in site.pages %}
+    	{% if dino.catogory == "herbivores" %}
+	 		<li>{{dino.name}}</li>
+    	{% endif %}
+    {% endfor %}
+</ul>
+
