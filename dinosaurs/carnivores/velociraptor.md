@@ -5,7 +5,7 @@ discovery: 1924
 discoverer: Henry Fairfield Osborn
 Period: Late Cretaceous
 description: The Velociraptor is best known for its inaccurate portrayal in films including Jurassic Park
-catogory: carnivore
+category: carnivore
 source: http://en.wikipedia.org/wiki/Velociraptor
 ---
 ![velociraptor](img/velociraptor.jpg)

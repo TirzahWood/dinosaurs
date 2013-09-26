@@ -10,7 +10,17 @@ layout: default
 
 <ul>
  	{% for dino in site.pages %}
-    	{% if dino.catogory == "herbivores" %}
+    	{% if dino.category == "herbivore" %}
+	 		<li>{{dino.name}}</li>
+    	{% endif %}
+    {% endfor %}
+</ul>
+
+<h2>Carnivores</h2>
+
+<ul>
+ 	{% for dino in site.pages %}
+    	{% if dino.category == "Carnivore" %}
 	 		<li>{{dino.name}}</li>
     	{% endif %}
     {% endfor %}
